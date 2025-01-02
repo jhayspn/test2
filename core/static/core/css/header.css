@@ -1,0 +1,30 @@
+.mini{
+    letter-spacing: 4px;
+    text-align: right;
+ 
+}
+/* .edit{
+    background-image:linear-gradient(10deg,crimson,hotpink)
+}
+.edit-header{
+    color: hotpink;
+}
+
+ */
+.sabji{
+    height:200px;
+}
+
+
+/* Custom background color for the <h1> - Hot Pink */
+.custom-h1 {
+    background-color: hotpink !important; /* Ensure no overriding background */
+    padding: 20px; /* Optional: Adjust padding to cover more area */
+    margin: 0; /* Optional: Remove margin to ensure no space around the element */
+  }
+  
+  /* Ensure parent containers don't have a conflicting background */
+  .div.edit {
+    background-color: transparent !important; /* Remove any conflicting background */
+  }
+  
